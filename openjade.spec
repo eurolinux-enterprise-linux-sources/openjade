@@ -1,7 +1,7 @@
 Summary: A DSSSL implementation
 Name: openjade
 Version: 1.3.2
-Release: 43%{?dist}
+Release: 45%{?dist}
 Requires: sgml-common
 URL: http://openjade.sourceforge.net/
 Source: http://download.sourceforge.net/openjade/openjade-%{version}.tar.gz
@@ -107,6 +107,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/sgml/%{name}-%{version}
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.3.2-45
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.3.2-44
+- Mass rebuild 2013-12-27
+
 * Mon Mar 25 2013 Ondrej Vasik <ovasik@redhat.com> 1.3.2-43
 - Use upstream config.sub and config.guess to support aarch64(#926278)
 
